@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void printArray(int arrayMap[10][10]) {
+void printArray(int arrayMap[10][10]) { // Function to print array 
     for (int i = 0;i < 10;i++) {
         for (int j = 0;j < 10;j++) {
             if (arrayMap[i][j] < 10) {
